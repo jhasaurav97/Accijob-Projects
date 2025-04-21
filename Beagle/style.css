@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-Section{
+  height: 180px;
+  padding: 12px;
+  margin: 12px;
+  color: #000;
+  font-family: Inter;
+  border: 1px solid #000;
+}
+
+.top-Section h1{
+  text-decoration: underline;
+  margin-bottom: 22px;
+  font-size: 32px;
+}
+
+.top-Section p{
+  margin-bottom: 22px;
+}
+
+.top-Section a{
+  text-decoration: none;
+  color: blue;
+}
+
+.image-section{
+  margin: 12px;
+}
+
+.image-section h1{
+  text-decoration: underline;
+  margin-bottom: 22px;
+}
+
+.image-section img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.image-section a{
+  display: block;
+  text-decoration: none;
+  color: blue;
+}
+
+.trivia-section{
+  margin-left: 12px;
+}
+
+.trivia-section h1{
+  text-decoration: underline;
+  margin-bottom: 22px;
+}
+
+.trivia-section ol{
+  margin: 10px 15px;
+}
