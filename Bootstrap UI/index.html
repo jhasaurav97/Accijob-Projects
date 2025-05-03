@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <title>Bootstrap UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Complex UI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Section 3</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="hero-section">
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="./img/slide01.jpg" alt="Slide-01">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Second Slide Title</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide02.jpg" alt="Slide-02">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide03.jpg" alt="Slide-03">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="custom-flex">
+      <div class="cards">
+        <img src="https://images.unsplash.com/photo-1504288145234-919e7bbc6d19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="">
+        <p>Short Description</p>
+      </div>
+      <div class="cards">
+        <img src="https://plus.unsplash.com/premium_photo-1675448891102-6b8c6faffc3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8" alt="">
+        <p>Short Description</p>
+      </div>
+      <div class="cards">
+        <img src="https://images.unsplash.com/photo-1533139143976-30918502365b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="">
+        <p>Short Description</p>
+      </div>
+    </div>
+
+    <div class="grid-section">
+      <div class="container">
+        <div class="grid">
+          <img src="https://images.unsplash.com/photo-1500073584060-670c36a703f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMyfHx8ZW58MHx8fHx8" class="item item1" />
+          <img src="https://images.unsplash.com/photo-1501979436208-9d8ea2f76f1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM2fHx8ZW58MHx8fHx8" class="item item2" />
+          <img src="https://images.unsplash.com/photo-1517690623533-ca77a9a4b402?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM4fHx8ZW58MHx8fHx8" class="item item3" />
+          <img src="https://images.unsplash.com/photo-1483750356451-828d7d2cec30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ3fHx8ZW58MHx8fHx8" class="item item4" />
+          <img src="https://images.unsplash.com/photo-1466853817435-05b43fe45b39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ0fHx8ZW58MHx8fHx8" class="item item5" />
+          <img src="https://images.unsplash.com/photo-1515984977862-1c7201ef324d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUxfHx8ZW58MHx8fHx8" class="item item6" />
+          <img src="https://images.unsplash.com/photo-1460858919142-ffc0a74e3702?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU2fHx8ZW58MHx8fHx8" class="item item7" />
+          <img src="https://images.unsplash.com/photo-1493514789931-586cb221d7a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU4fHx8ZW58MHx8fHx8" class="item item8" />
+          <img src="https://images.unsplash.com/photo-1507187632231-5beb21a654a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYwfHx8ZW58MHx8fHx8" class="item item9" />
+        </div>
+      </div>
+    </div>
+
+    <div class="bootstrap-section container">
+      <div class="row custom-cards">
+        <div class="card col-md-4" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1482784160316-6eb046863ece?&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDY3fHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1502668613814-274b06f1ebb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDcyfHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1490237014491-822aee911b99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDc5fHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="bg-light text-dark py-5 mt-5">
+    <div class="container">
+      <div class="row  text-md-start">
+        
+        <!-- Useful Links -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Useful Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-primary text-decoration-underline">Link 1</a></li>
+            <li><a href="#" class="text-primary text-decoration-underline">Link 2</a></li>
+            <li><a href="#" class="text-primary text-decoration-underline">Link 3</a></li>
+          </ul>
+        </div>
+  
+        <!-- More Links -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">More Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-primary text-decoration-underline">Link 4</a></li>
+            <li><a href="#" class="text-primary text-decoration-underline">Link 5</a></li>
+            <li><a href="#" class="text-primary text-decoration-underline">Link 6</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Info + Back to Top -->
+        <div class="col-md-4 mb-0">
+          <h5 class="fw-bold">Contact Us</h5>
+          <p class="mb-1">Email: example@example.com</p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <a href="#" class="btn btn-primary mt-2">Back to Top</a>
+        </div>
+  
+      </div>
+  
+      <div class="text-start mt-0">
+        <p>© 2023 Complex UI. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
