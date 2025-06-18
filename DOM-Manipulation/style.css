@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 35px 55px;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.msg {
+  font-size: 18px;
+  font-weight: 300;
+  color: lightgray;
+}
+
+#count{
+  color: #fff;
+  font-weight: 400;
+}
+
+hr{
+  width: 13%;
+  margin-top: 10px;
+}
+
+#errorMsg{
+  margin-top: 20px;
+  color: brown;
+  margin-bottom: 30px;
+  font-size: 16px;
+  display: none;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.btn{
+  width: 120px;
+  height: 30px;
+}
+
+.btn:disabled{
+  background-color: lightblue;
+  cursor: not-allowed;
+  border: none;
+}
+
+.clr{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid lightgray;
+}
