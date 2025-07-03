@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="submit" method="post" id="formEl" onchange="submitForm()">
+    <div class="input-el">
+      <label for="email">Email</label>
+      <input onchange="validateEmail()" type="email" id="email" placeholder="Example@email.com" required aria-describedby="para1"
+      aria-invalid="false"
+      >
+      <p class="word" id="para1">Make sure email is more than 3 characters and has @ and a .</p>
+    </div>
+    <div class="input-el">
+      <label for="password">Password</label>
+      <input onchange="validatePass()" type="text" id="password" placeholder="Your Password" required aria-describedby="para2"
+      aria-invalid="false">
+      <p class="word" id="para2">Make sure password is more than 8 characters.</p>
+    </div>
+    <p id="sucess" class="finalText">All good to go!</p>
+    <button type="button" onclick="askSubmit()">Submit</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
