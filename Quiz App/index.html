@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App | Test Your Knowledge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section id="quiz-container" aria-label="Quiz Category Selection">
+        <h1 class="visually">Quiz Categories</h1>
+        <div class="quiz-buttons">
+          <button class="section" data-section="0" role="button">General
+            Knowledge</button>
+          <button class="section" data-section="1"
+            role="button">Science</button>
+          <button class="section" data-section="2"
+            role="button">Mathematics</button>
+          <button class="section" data-section="3" role="button">Indian
+            History</button>
+        </div>
+      </section>
+
+      <section id="question-container" class="hidden"
+        aria-label="Quiz Questions">
+        <p id="score">Score: 0</p>
+        <div id="question"></div>
+        <div id="options" role="radiogroup" aria-labelledby="question"></div>
+        <button id="next-button" type="button">Next</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
