@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Post Offices</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="firstScreen">
+      <div class="left-side">
+        <h1>Post Office Application.</h1>
+        <p>This Application Allows you to extract information about the nearest
+          Post Offices, based on your location.</p>
+        <img src="./img/undraw_messenger_re_8bky 1.png" alt="logo-img">
+      </div>
+      <div class="right-side">
+        <h2>Your Current IP Address is <span id="user-ip">loading...</span></h2>
+        <button id="getStartedBtn">Get Started</button>
+      </div>
+    </div>
+
+    <div id="secondScreen" style="display: none;">
+      <!-- Top Info -->
+      <div class="top-info">
+        <h2>IP Address: <span id="ip"></span></h2>
+        <div class="top-info-context">
+          <p><strong>Lat:</strong> <span id="lat"></span>
+            <br><strong>Long:</strong> <span id="long"></span></p>
+          <p><strong>City:</strong> <span id="city"></span>
+            <br><strong>Region:</strong> <span id="region"></span></p>
+          <p><strong>Organisation:</strong> <span id="org"></span>
+            <br><strong>Hostname:</strong> <span id="hostname"></span></p>
+        </div>
+      </div>
+
+      <!-- Location Map -->
+      <div class="map-section">
+        <h2>Your Current Location</h2>
+        <div id="map"></div>
+      </div>
+
+      <!-- More Info -->
+      <div class="more-info">
+        <h2>More Information About You</h2>
+        <p><strong>Time Zone:</strong> <span id="timezone"></span></p>
+        <p><strong>Date And Time:</strong> <span id="date-time"></span></p>
+        <p><strong>Pincode:</strong> <span id="pincode"></span></p>
+        <p><strong>Message:</strong> <span id="message"></span></p>
+      </div>
+
+      <!-- Post Offices -->
+      <div class="post-offices">
+        <h2>Post Offices Near You</h2>
+        <div class="search-input">
+          <img src="./img/Vector.png" alt="search icon">
+          <input type="text" id="searchBox" placeholder="Search By Name">
+        </div>
+        <div class="post-office-list" id="post-office-list">
+          <!-- Post office cards will be injected dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
